@@ -1,3 +1,5 @@
+//! @note Snyggt jobbat! Jag antar att detta är referensmodellen från innan LIA:n, men det ser bra ut.
+
 /**
  * @brief Dense layer implementation details.
  */

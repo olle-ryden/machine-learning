@@ -1,6 +1,10 @@
 /**
  * @brief Neural network implementation with dense layers.
  */
+//! @note Snyggt jobbat med denna fil! Det enda jag kan anmärka på är:
+//!       - Driverheaders kan/bör inkluderas för ml-headers.
+//!       - Main-funktionen är rätt lång och kanske hade kunde delats in i minst två funktioner.
+//!         Det som sker i while-loopen hade exempelvis kunnat hanteras via en metod.
 #include <iomanip>
 #include <iostream>
 
@@ -114,6 +118,8 @@ int main()
     ml::neural_network::SingleLayer network{hiddenLayer, outputLayer, trainInput, trainOutput};
 
     // Implement aliases for LED and button drivers.
+    // @note Snyggt med alias. Hade du använt makron för att enkelt kunna kompilera för RPi eller
+    // för Windows (med stubbar) hade dessa varit särskilt fördelaktiga.
     using ledDriver = driver::led::Rpi;
     using buttonDriver = driver::button::Rpi;
 

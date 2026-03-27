@@ -1,3 +1,5 @@
+//! \note Utmärkt interface med virtuella metoder för precision med mera.
+
 /**
  * @brief Neural network interface implementation.
  */

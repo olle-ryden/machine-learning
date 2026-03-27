@@ -1,3 +1,4 @@
+//! @note Se kommentarer för motsvarande fil i assignment 5.
 /**
  * @brief Single Layer implementation details.
  */
